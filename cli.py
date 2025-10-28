@@ -6,7 +6,7 @@ from lite_llama.generate_stream import GenerateStreamText  # 导入 GenerateText
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="torch._utils")
 
-checkpoints_dir = "/home/honggao/lite_llama/my_weight/Qwen3-1.7B"
+checkpoints_dir = "/home/smile2game/hpc/weights/Llama-3.2-1B-Instruct"
 
 def main(
     temperature: float = 0.6,
